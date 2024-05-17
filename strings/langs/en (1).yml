@@ -1,0 +1,139 @@
+isim: 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Türkçe
+
+# Genel Dizeler
+general_1 : "Bir kullanıcının mesajını yanıtlayın veya username/user_id verin."
+general_2 : "Hata! Yanlış Komut Kullanımı."
+general_3: "Sorgunuz işlenirken bazı ** özel durumlar oluştu **.\n\nException Türü: - {0}"
+general_4 : "Bu sohbet grubunda anonim bir yöneticisiniz!Yönetici Haklarından Kullanıcı Hesabına geri Dön."
+general_5: "Bu eylemi gerçekleştirmek için sesli sohbeti yönet haklarına sahip yönetici olmanız gerekir."
+general_6: "Bot sesli sohbette yayın yapmıyor."
+
+# Sınıflar - Telegram.py
+tg_1: "Bot şu anda indirmelerle ** aşırı yüklendi **.\n\n ** Sonra deneyin: ** {0} (__ beklenen süre __)"
+tg_2: "Telegram'dan medya indirilemedi."
+
+# Çekirdek - Call.py
+call_1: "Bot, asistan hesabını kanalınıza davet etmek için ** Yönetici ** izni gerektirir."
+call_2: "Grubunuzda veya kanalınızda Asistan yasaklandı, lütfen banınızı kaldırın.\n\n ** Asistan Kullanıcı Adı: ** @ {0}\n** Asistan Kimliği: ** {1}"
+call_3: "Asistan Hesabını sohbetinize davet Ederken Özel Durum Oluştu.\n\n ** Sebep **: {0}"
+call_4: "Bot, asistan hesabını sohbet grubunuza davet etmek için ** Kullanıcıları Bağlantı Yoluyla Davet Et ** izni gerektirir."
+call_5: "Asistan Hesabı 5 Saniye içinde katılacak..Lütfen bekleyin!"
+call_6: "Yardımcı Hesap [{0}] Başarıyla Katıldı.\n\ nşimdi Müziğe Başlıyorum"
+call_7 : "** Verilen Zararlı Yönetici Hakkı **\ n\ nLütfen ** YASAK KULLANICI ** haklarını bottan kaldırın."
+call_8: "** Verilen Zararlı Yönetici Hakkı **\ n\ nLütfen kaldırın ** YENİ YÖNETİCİLER ekleyin ** bottan haklar."
+call_9 : "** Akış değiştirilemedi **\nplütfen parçayı tekrar değiştirmek için kullan / atla."
+call_10 : "Çalma Listesinden Bir Sonraki Parçayı İndirme"
+call_11 : "Lütfen kanalınıza @{0} ekleyin [ ID: {1}].\n\nBot kanal bilgilerini alamıyor."
+
+# EKLENTİLER - Auth.py
+auth_1 : "Grubunuzun Yetkili Kullanıcılar Listesinde (AUL) yalnızca 20 Kullanıcınız olabilir."
+auth_2: "Grubunuzun Yetkili Kullanıcılar Listesine eklendi."
+auth_3 : "Zaten Yetkili Kullanıcılar Listesinde."
+auth_4 : "Bu Grubun Yetkili Kullanıcılar Listesinden Kaldırıldı."
+auth_5 : "Hedeflenen kullanıcı Yetkili bir Kullanıcı değil."
+auth_6 : "Yetkili Kullanıcılar Getiriliyor... Lütfen Bekleyin"
+auth_7 : "** Yetkili Kullanıcılar Listesi [AUL]: **\n\n"
+auth_8 : "┗ Tarafından eklendi:-"
+
+# EKLENTİLER - Yöneticiler
+admin_1 : "Müzik zaten Duraklatıldı."
+admin_2 : " 🎧 Voicechat {} tarafından Duraklatıldı!"
+admin_3 : "Müzik zaten devam ediyor."
+admin_4 : " 🎧 Voicechat {} tarafından Devam ettirildi!"
+admin_5 : "Müzik zaten sessize alındı."
+admin_6 : "Voicechat {} tarafından Susturuldu!"
+admin_7 : "Müzik zaten kapalı."
+admin_8 : "Voicechat {} tarafından Sessize Alındı!"
+admin_9 : " 🎧 Sesli Sohbet Sona Erdi / {} tarafından durduruldu!"
+admin_10 : " 🎧 Voicechat {} tarafından atlandı!. Sırada Daha fazla Müzik yok."
+admin_11 : "Akış değiştirilirken hata oluştu **{0} **\n\nLütfen tekrar kullanın / atlayın."
+admin_12: "Etkin döngü çalma nedeniyle belirli bir parçaya geçilemiyor. Bu özelliği kullanmak için lütfen `/ loop disable` aracılığıyla döngü oynatmayı devre dışı bırakın."
+admin_13: "Lütfen 1, 2 veya 4 gibi belirli parçalar için sayısal sayılar kullanın"
+admin_14 : "Belirli bir numaraya atlamak için kuyrukta en az 2 parça gerekiyordu. Kuyruğu / sıraya göre kontrol et "
+admin_15 : "Sizin tarafınızdan verilen değer için kuyrukta yeterli parça yok. Lütfen 1 ile {0} arasındaki sayıları seçin "
+admin_16 : "Belirli bir parçaya geçilemedi.\n\n Sol sırayı / sıraya göre kontrol et"
+admin_17 : "{0}.. Lütfen Bekleyin"
+admin_18 : "Yönetici Listesi Bulunamadı \n\nLütfen yönetici listesini /admincache veya / reload aracılığıyla yeniden yükleyin"
+admin_19: "Bunu gerçekleştirmek için sesli sohbeti yönet haklarına sahip yönetici olmanız gerekir.Zaten yönetici iseniz, admincache'i / admincache aracılığıyla yeniden yükleyin "
+admin_20 : "Yönetici önbelleği başarıyla yeniden yüklendi."
+admin_21: "Karıştırılacak sıranın içinde hiçbir şey yok"
+admin_22 : "Karıştırılamadı.\n\nsırayı kontrol et : / sıra"
+admin_23 : "** {0} ile Karıştırılmış sıra **\n\nkarıştırılmış sırayı kontrol et: / sıra"
+admin_24 : "** Kullanım: ** \ n/ döngü [etkinleştir / devre dışı bırak] veya [1-10 arası sayı] \n\n ** Örnek: ** / döngü 5"
+admin_25: "** {1} ** süreleri için {0} tarafından etkinleştirilen döngü. Bot şimdi sesli sohbette çalmakta olan müziği **{1} ** kez tekrarlayacak "
+admin_26 : "Döngüsel oynatma için lütfen 1 ile 10 arasındaki sayıları kullanın"
+admin_27 : "Döngü Oynatma devre dışı bırakıldı"
+admin_28 : "** Kullanım:**\n/arama veya / geri arama [Saniye cinsinden süre]"
+admin_29 : "Lütfen arama için 10-20-30 saniye gibi sayısal süre saniye kullanın"
+admin_30 : "Üzgünüm ama şu anda oynatılan akışı arayamazsınız. Sadece atlanabilir veya durdurulabilir."
+admin_31 : "Verilen yüksek süre nedeniyle Bot arama yapamıyor. Daha düşük bir süre aramanız ve aradıktan sonra 10 saniyelik bir sürenin kaldığını hatırlamanız gerekir.\n\ncşu anda çalındı ** {0} ** dakika dışında **{1} ** dakika"
+admin_32 : "Lütfen bekleyin... Devam eden akışı arıyorum."
+admin_33 : "{0} Dakikaya Başarıyla Akış Arandı"
+admin_34 : "Geçerli akış aranamadı."
+
+# Bot
+
+# Başla
+start_1: "Beni {0} 'da ağırladığınız için teşekkürler.\n{1} yaşıyor.\n\ nherhangi bir yardım veya yardım için destek grubumuza ve kanalımıza göz atın."
+start_2: "Merhaba, benim adım {0}.Bazı kullanışlı özelliklere sahip bir telegram akış botuyum. Youtube, Spotify, Resso, AppleMusic, Soundcloud vb. Platformları destekler.beni gruplarınıza eklemekten çekinmeyin."
+start_3: "{0} 'a hoş geldiniz \ n \ Nİ çalışmak için herhangi bir ** yönetici iznine ** gerek yok (istenene kadar).\n\nAssistant Kullanıcı Adı: - @{1}\nAssistant Kimliği:- {2}"
+start_4 : "{0}'ın Sahibi[{1}] sohbetinize yeni katıldı."
+start_5 : "{0}'ın Sudo Kullanıcısının[{1}] bir üyesi sohbetinize yeni katıldı."
+start_6: " ❗️ ** Süper Grup Gerekli ** ❗️ \ n \ nLütfen ** grubunuzu ** süper gruba ** dönüştürün ve ardından beni geri ekleyin.\n\n**Süper grup nasıl yapılır?** \ n ✅ Grubunuzun sohbet geçmişini ** görünür ** bir kez yapın."
+start_7 : "** Kara Listeye Alınmış Sohbet **\ n\ nkonuşmanız Bot tarafından kara listeye alındı. Lütfen herhangi bir sudouser'dan önce sohbeti beyaz listeye almasını isteyin. [Sudolist'i buradan kontrol edin] ({0})"
+
+# Yardım
+yardım_1 : "Daha fazla bilgi için aşağıdaki düğmelere tıklayın. Komutada herhangi bir sorunla karşılaşırsanız, bot sahibimle iletişime geçebilir veya destek sohbetinde sorabilirsiniz.\n\nTüm komutlar şu komutlarla kullanılabilir: /"
+help_2: "Yardım için pm'de bana ulaşın."
+
+# Ayarlar
+setting_1: "️️ ** Müzik Botu Ayarları ** \n\nGroup** Grup: ** {0} \nGroup** Grup Kimliği: ** `{1}`\n\n below**Aşağıdan düzenlemek istediğiniz işlev düğmelerini seçin veya üstünü değiştir.**"
+ayar_3 : " ⁉️ Bu nedir?\n\n1) Doğrudan: Arama sorgularını doğrudan oynatır. Videoları doğrudan modda oynatmak için -v kullanın.\n\n2) Satır içi: Video ve ses arasında seçim yapmak için Satır İçi İşaretleme Düğmelerini döndürür."
+ayar_4 : " ⁉️ Bu nedir?\n\n Everyone Herkes: Bu grupta bulunan yönetici komutlarını (atla, duraklat, devam et vb.) Herkes Kullanabilir.\n\n Only Yalnızca Yönetici: Yönetici komutlarını yalnızca yöneticiler ve yetkili kullanıcılar kullanabilir."
+setting_5 : "Yetkili Kullanıcı Bulunamadı\n \ny Yönetici olmayanların yönetici komutlarımı /auth ile kullanmasına ve / unauth kullanarak silmesine izin verebilirsiniz"
+ayar_9 : " ⁉️ Bu nedir?\n\n Etkinleştirildiğinde Bot, sohbetinizi temiz ve anlaşılır kılmak için {0} 'dan sonra mesajını silecektir."
+ayar_10 : " ⁉️ Bu nedir?\n\n1) Grup: Komutun verildiği grupta müzik çalar.\n\n2) Kanal: istediğiniz kanalda müzik çalar. Kanal kimliğini / channelplay üzerinden ayarla"
+ayar_11 : " ⁉️ Bu nedir?\n\n1) Herkes: Bu grupta bulunan herkes burada müzik çalabilir.\n\n2) Yalnızca Yönetici: Bu gruptaki müziği yalnızca yöneticiler çalabilir."
+setting_12 : " ❌ Kanal modu için tanımlı kanal kimliğiniz yok. Lütfen / channelplay ile tanımlayın."
+setting_13: "Etkin grup çağrısında oynatma modu değiştirilemiyor. Lütfen önce sesli sohbeti durdurun / durdurun."
+ayar_14 : " ⁉️ Bu nedir?\n \ n Etkinleştirildiğinde Bot, yürüttüğü komutları (/ oynat, / duraklat, / karıştır, / durdur vb.) Hemen Silecektir.\n\nBot, bunun düzgün çalışması için yönetici mesajlarının silinmesini gerektirecektir."
+setting_15: "Eş çözümlenemedi, Kanalınıza bot eklediğinizden ve yönetici olarak tanıttığınızdan emin olun.\n\ n Ayarı / kanalı tekrar oynatmayı deneyin.."
+ayar_16 : " ⁉️ Bu nedir?\n \ n Etkinleştirildiğinde, Bot her 1-2 saatte bir bot komutları (komutlar ve diğer birçok şey olan bunların nasıl kullanılacağı) hakkında sohbetinizi rastgele önerecektir."
+
+
+set_cb_1: "Ses Kalitesi Paneli Alınıyor..."
+set_cb_2: "Video Kalitesi Paneli Alınıyor..."
+set_cb_3: "Auth Kullanıcıları Paneli Alınıyor..."
+set_cb_4: "Oynatma Modu Paneli Alınıyor..."
+set_cb_5: "Temiz Mod Paneli Alınıyor..."
+set_cb_6 : "Değişiklikleri ayarlama."
+set_cb_7: "Auth Kullanıcı Listesi Alınıyor.. Lütfen bekleyin."
+set_cb_8 : "Geri dönüyorum.."
+
+# Çeşitli
+ustats_1 : "Kullanıcı İstatistikleri Bulunamadı."
+ustats_2 : "Selamlar!, Şimdiye kadar çok sayıda ** {1} ** kez ** {0} ** parça çaldınız.\n\nTop {2} sizin tarafınızdan oynandı: \n\n"
+
+gstats_1 : "Küresel İstatistikler Almak biraz zaman alabilir..."
+gstats_2 : "İstatistik Bulunamadı."
+gstats_3 : "Botta Global Top 10 {0} almak biraz zaman alabilir.."
+gstats_4: "** Bottaki Toplam Sorgular: ** {0} \n\ n {1} şimdiye kadar ** {2} ** parçalarını ** {3} ** kez sayarak çaldı.\n\n ** En iyi {4} Parçalar: **\n"
+gstats_5 : "** {1}'in en iyi {0} Sohbetleri:**\n\n"
+gstats_6 : "** {1}'in en iyi {0} Kullanıcıları:**\n\n"
+gstats_7: "Bu sohbet grubu şimdiye kadar çok sayıda ** {1} ** kez **{0} ** parça çaldı.\n\nTop {2} bu sohbet grubu tarafından oynandı:\n\n"
+gstats_8: "Botun genel istatistiklerini ve bilgilerini almak.. Bu biraz zaman alabilir..."
+gstats_9 : "** BOTUN GENEL en iyi 10 İSTATİSTİĞİ **\n\NS Botun sunucularından genel istatistikleri kontrol etmek istediğiniz düğmeleri aşağıdan seçin."
+gstats_10 : "** Genel İstatistikler {0} **\n\ns Bot sunucularından genel istatistikleri kontrol etmek istediğiniz düğmeleri aşağıdan seçin."
+gstats_11 : "** {0} Genel İstatistikleri **\ns Bot sunucularından genel istatistikleri kontrol etmek istediğiniz düğmeleri aşağıdan seçin.\ n\ nen iyi parçaları, sohbetleri, kullanıcıları ve diğer içerikleri kontrol etmek için lütfen / gstats kullanın "
+
+
+# Oyna
+
+# Geri Aramayı Oynat
+playcb_1: "Bu senin için değil! Kendi Şarkını Ara."
+playcb_2 : "Bir Sonraki Sonuç Alınıyor"
+
+# Kanal Oynatma
+cplay_1 : "Bu sohbetten [{0}] herhangi bir kanala veya sohbetinizin bağlantılı kanalına kanallarda müzik çalabilirsiniz.\n\n**Bağlantılı kanal için: **\n`/{1} bağlantılı`\n\n** Diğer kanallar için: **\n`/{1} [Kanal Kimliği]`"
+cplay_2 : "Bu sohbetin bağlantılı kanalı yok."
+cplay_3 : "{0}\n\n__Kanal Kimliği__ olarak Tanımlanan Kanal: {1}"
